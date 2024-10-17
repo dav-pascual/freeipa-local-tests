@@ -6,7 +6,7 @@ python3 -m venv ipa-local-test
 
 cd ipa-local-test
 source bin/activate
-pip3 install git+https://github.com/abbra/mrack@podman-freeipa
+pip3 install git+https://github.com/dav-pascual/mrack@print-podman
 git clone --depth 1 https://github.com/freeipa/ansible-freeipa.git af
 
 cp -r ../data .
