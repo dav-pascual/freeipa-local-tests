@@ -13,7 +13,7 @@ cp -r ../data .
 
 cd data
 
-mrack up -m metadata.yaml
+mrack --debug up -m metadata.yaml
 
 deactivate
 
